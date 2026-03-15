@@ -4,7 +4,7 @@ import requests
 import os
 
 # সেটিংস
-TOKEN = 'ENV'
+DISCORD_TOKEN = os.getenv('DISCORD_TOKEN')
 CHANNEL_ID = 1474106188843974659  # ডিসকর্ড চ্যানেল আইডি
 YT_API_KEY = 'AIzaSyAscOzV562qSrbOfJY9OUfZlk5JTUkHAWY'
 CHANNEL_ID_YT = 'UC5OsmUsmg7h97p2N1gPNe3w'
