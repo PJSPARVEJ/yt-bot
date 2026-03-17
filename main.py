@@ -2,8 +2,10 @@ import discord
 from discord.ext import tasks
 import requests
 import os
+from dotenv import load_dotenv
 
-# সেটিংস
+# --- কনফিগারেশন ---
+load_dotenv()
 DISCORD_TOKEN = os.getenv('DISCORD_TOKEN')
 CHANNEL_ID = 1474106188843974659  # ডিসকর্ড চ্যানেল আইডি
 YT_API_KEY = 'AIzaSyAscOzV562qSrbOfJY9OUfZlk5JTUkHAWY'
